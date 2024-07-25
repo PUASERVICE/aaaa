@@ -564,6 +564,7 @@
                 { label: "简体中文", value: "zhCN" },
                 { label: "繁體中文", value: "zhTW" },
                 { label: "English", value: "enUS" },
+                { label: "한국어", value: "koKR" },
               ],
             };
           },
