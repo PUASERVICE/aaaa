@@ -1213,6 +1213,122 @@
         O = S,
         j = (e("dafc"), Object(u["a"])(O, y, N, !1, null, "48b30e2a", null)),
         P = j.exports,
+                L = function () {
+          var t = this,
+            s = t.$createElement,
+            e = t._self._c || s;
+          return e("div", { staticClass: "home-advance" }, [
+            e(
+              "div",
+              { staticClass: "wrapper-box" },
+              [
+                e("h2", { staticClass: "text-title reveal-ele" }, [
+                  t._v(t._s(t.$t("最先进开源协议和我们的自研秘技"))),
+                ]),
+                e("p", { staticClass: "text-desc reveal-ele" }, [
+                  t._v(
+                    t._s(t.$t("一个服务，对接多种协议，应对多样网路环境。"))
+                  ),
+                ]),
+                e(
+                  "a-tabs",
+                  {
+                    staticClass: "tabs reveal-ele",
+                    attrs: {
+                      "default-active-key": "1",
+                      "tab-position": "left",
+                    },
+                  },
+                  [
+                    e(
+                      "a-tab-pane",
+                      {
+                        key: "1",
+                        attrs: { tab: "ShadowSocksR / ShadowSocks" },
+                      },
+                      [
+                        e("p", [
+                          t._v(
+                            t._s(
+                              t.$t(
+                                "ShadowSocks 是一种无连接无状态的代理协议。它承载 TCP UDP 数据，可轻松穿透世界上最强国家防火墙，中国的 GFW 。"
+                              )
+                            )
+                          ),
+                        ]),
+                        e("p", [
+                          t._v(
+                            t._s(
+                              t.$t(
+                                "ShadowSocksR 是前者的主要分支，修补了安全漏洞，扩展了加密选项，增加了流量混淆能力。"
+                              )
+                            )
+                          ),
+                        ]),
+                      ]
+                    ),
+                    e(
+                      "a-tab-pane",
+                      { key: "2", attrs: { tab: "V2Ray / Vmess" } },
+                      [
+                        e("p", [
+                          t._v(
+                            t._s(
+                              t.$t(
+                                "V2Ray 是一个流量转发软件平台。它支持多种代理协议，并允许这些协议与多种传输层协议配合使用。而 VMess 是这个平台上原创的代理协议。与 TLS 传输方式配合使用的时候，他可以完美模拟 HTTPS 上网浏览。"
+                              )
+                            )
+                          ),
+                        ]),
+                      ]
+                    ),
+                    e(
+                      "a-tab-pane",
+                      { key: "3", attrs: { tab: t.$t("自研秘技") } },
+                      [
+                        e("p", [
+                          t._v(
+                            t._s(
+                              t.$t(
+                                "我们自研的私有协议，可以模拟多种网页浏览场景。使得防火墙无法可靠区分 VPN 数据浏览。如强行阻拦亦会影响正常使用网络，因此连接无法有效拦截。"
+                              )
+                            )
+                          ),
+                        ]),
+                      ]
+                    ),
+                  ],
+                  1
+                ),
+                e(
+                  "div",
+                  { staticClass: "btns reveal-ele" },
+                  [
+                    e(
+                      "a-button",
+                      {
+                        attrs: { size: "large", type: "primary" },
+                        on: {
+                          click: function (s) {
+                            return t.$router.push("/login");
+                          },
+                        },
+                      },
+                      [t._v(t._s(t.$t("立即尝试多协议 VPN 服务")))]
+                    ),
+                  ],
+                  1
+                ),
+              ],
+              1
+            ),
+          ]);
+        },
+        T = [],
+        E = { name: "HomeAdvance" },
+        H = E,
+        M = (e("ffbf"), Object(u["a"])(H, L, T, !1, null, "9a1c4dbc", null)),
+        V = M.exports,
         q = function () {
           var t = this,
             s = t.$createElement,
