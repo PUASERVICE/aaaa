@@ -21,7 +21,8 @@
       var o = window.langs,
         u = o.zhCN,
         i = o.zhTW,
-        s = o.enUS;
+        s = o.enUS,
+        d = o.koKR;
       function d() {
         var e =
             arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
@@ -42,7 +43,7 @@
       }
       n["a"] = new r["a"]({
         locale: d(),
-        messages: { zhCN: u, zhTW: i, enUS: s },
+        messages: { zhCN: u, zhTW: i, enUS: s, koKR: d },
       });
     },
     "22d6": function (e, n, t) {
