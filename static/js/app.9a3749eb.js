@@ -29,7 +29,7 @@
             var e = (navigator.language || navigator.browserLanguage)
               .replace(/[-_]/g, "")
               .toLowerCase();
-            return e.includes("enus")
+            return e.includes("zhcn")
               ? "zhCN"
               : e.includes("zhtw")
               ? "zhTW"
