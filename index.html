@@ -124,33 +124,6 @@
 
 <!--@empty($theme_config['loading_text'])-->
 <script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "39d1c685-4d4d-4d9b-9b6f-669a1a965982"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
-<script>
-  function checkAdBlock() {
-      // 创建一个测试广告元素
-      var ad = document.createElement('div');
-      ad.innerHTML = '&nbsp;';
-      ad.style.width = '1px';
-      ad.style.height = '1px';
-      ad.style.position = 'absolute';
-      ad.style.left = '-1000px';
-      ad.style.top = '-1000px';
-      document.body.appendChild(ad);
-
-      // 检测广告元素是否被广告拦截器隐藏
-      var isAdBlocked = ad.offsetHeight === 0;
-
-      // 移除测试广告元素
-      document.body.removeChild(ad);
-
-      // 如果检测到广告被拦截，显示提示信息
-      if (isAdBlocked) {
-          alert('检测到您开启了广告拦截功能。为了正常使用本网站，请关闭广告拦截功能。如果您已经关闭了广告拦截功能，请刷新页面。\n\nWe have detected that you have turned on the ad-blocking feature. In order to use this website normally, please disable the ad-blocking feature. If you have already turned off ad blocking, please refresh the page.');
-      }
-  }
-
-  // 页面加载完成后执行检测
-  window.onload = checkAdBlock;
-</script>
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="hourglassx" x="0px" y="0px" viewBox="0 0 203 203"
      enable-background="new 0 0 203 203" xml:space="preserve">
