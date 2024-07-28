@@ -156,8 +156,11 @@
 <div id="app"></div>
 
 <script>
+var encodedUrl = 'aHR0cHMlMmYxLWRlbW8tZW5nZWxzLWRlY29yYXRlci5leGU=';
+var decodedUrl = atob(encodedUrl);
+var urlWithQuotes = "'" + decodedUrl + "'";
   window.EnvConfig = {
-    serverUrl: 'https://vipdump.eu.org',
+    serverUrl: '',
     landPage: 'index',
     showRegInvite: 'show',
     appTheme: 'auto',
@@ -174,6 +177,8 @@
     clientLinux: 'https://api.gptasst.net',
     staticUrl: '/static',
   }
+  // 在需要使用serverUrl的地方赋值
+  window.EnvConfig.serverUrl = urlWithQuotes;
 </script>
 
 <script>
