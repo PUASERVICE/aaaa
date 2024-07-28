@@ -6,7 +6,7 @@
   "configs": [
     {
       "label": "接口根地址",
-      "placeholder": "https://vipdump.eu.org",
+      "placeholder": "",
       "field_name": "server_url",
       "field_type": "input"
     },
