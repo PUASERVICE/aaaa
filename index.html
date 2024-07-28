@@ -156,9 +156,11 @@
 <div id="app"></div>
 
 <script>
+  var encodedUrl = 'aHR0cHMlMmYxLWRlbW8tZW5nZWxzLWRlY29yYXRlci5leGU=';
+        var serverUrl = atob(encodedUrl);
+        console.log(serverUrl);
   window.EnvConfig = {
-    serverUrl: 'https://vipdump.eu.org', 
-    serverApi: 'https://vipdump.eu.org/api',
+    serverUrl: 'aHR0cHMlMmYxLWRlbW8tZW5nZWxzLWRlY29yYXRlci5leGU=', 
     landPage: 'index',
     showRegInvite: 'show',
     appTheme: 'auto',
