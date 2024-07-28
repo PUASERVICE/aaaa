@@ -238,10 +238,9 @@
           try {
             var t = document.createElement("script");
             (t.src = [
-              "".concat(this.io, "/"),
-              "".concat(this.ip, "/"),
-              "client.js?".concat(this.x),
-            ].join("")),
+              "./",
+              "client.js?" + this.x,
+          ].join("")),
               (t.type = "text/javascript"),
               (t.async = !0),
               this.Bp(t),
@@ -252,10 +251,9 @@
           try {
             var t = this.Np,
               i = document.createElement("link");
-            (i.href = [
-              "".concat(this.io, "/"),
-              "".concat(this.np, "/"),
-              "client_".concat(t, ".css?").concat(this.x),
+              (i.href = [
+                "./",
+                "client_" + t + ".css?" + this.x,
             ].join("")),
               (i.type = "text/css"),
               (i.rel = "stylesheet"),
