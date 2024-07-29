@@ -193,7 +193,7 @@ var decodedUrl = atob(encodedUrl);
     } else if (EnvConfig.appTheme === 'auto') {
       isDark = themeMedia.matches
     }
-    return isDark
+    return false
   }
 
   if (isDarkMode()) {
